@@ -5,11 +5,9 @@ import com.example.SaleCampaign.Management.Model.Product;
 import com.example.SaleCampaign.Management.Model.ProductDto;
 import com.example.SaleCampaign.Management.Model.Sales;
 import com.example.SaleCampaign.Management.Repository.ProductRepository;
-import com.example.SaleCampaign.Management.Repository.SalesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
